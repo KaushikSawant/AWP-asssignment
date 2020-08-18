@@ -1,0 +1,147 @@
+html,
+body {
+  margin: 0px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: ;
+}
+
+.a {
+  flex: 1;
+  background-color: #1e2428;
+  display: flex;
+}
+.a1 {
+  background-color: ;
+  flex: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a1 img {
+  border-radius: 50%;
+}
+.a2 {
+  flex: 8;
+  background-color: ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5px;
+}
+
+.gname {
+  flex: 1;
+  font-size: 20px;
+  padding-top: 0px;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 5px;
+  color: white;
+}
+.part {
+  flex: 1;
+  color: gray;
+}
+.a3 {
+  flex: 2;
+  /*background-color: #ededed;*/
+  background-color: #1e2428;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.b {
+  flex: 8;
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  background-image: url(bgrnd2.jpg);
+  background-size: contain;
+}
+.c {
+  flex: 1;
+  background-color: #1e2428;
+  display: flex;
+}
+.emoji {
+  flex: 1;
+  background-color: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+.emoji svg {
+  height: 35px;
+  width: 35px;
+}
+.far fa-grin {
+  font-size: 20px;
+  color: black;
+}
+.far fa-laugh {
+  font-size: 20px;
+  color: black;
+}
+.textbox {
+  flex: 1;
+  background-color: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea::placeholder {
+  overflow: hidden;
+}
+
+.msg2 {
+  background-color: #054740;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  max-width: 500px;
+  color: white;
+  visibility: hidden;
+}
+#txt1 {
+  width: 90vw;
+  height: 4vh;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.mic {
+  flex: 1;
+  background-color: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mic button {
+  height: 50px;
+  width: 80px;
+  border-radius: 25px;
+  border: none;
+  background-color: #1e2428;
+}
+#send1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
