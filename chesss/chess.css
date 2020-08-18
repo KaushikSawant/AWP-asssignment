@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+#x{
+    display: flex;
+    
+}
+
+#x div{
+    height: 50px;
+    width: 50px;    
+}
+
+
+.x2 :nth-child(odd){
+    background:black;
+    color: white;
+}
+
+.x1 :nth-child(even){
+    background: black;
+}
+
+.main{
+    justify-content: center;
+}
